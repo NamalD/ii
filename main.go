@@ -1,22 +1,24 @@
 package main
 
 import (
+    "fyne.io/fyne/v2"
     "fyne.io/fyne/v2/app"
-    "fyne.io/fyne/v2/container"
-    "fyne.io/fyne/v2/widget"
+    "fyne.io/fyne/v2/canvas"
 )
 
 func main() {
-    a := app.New()
-    w := a.NewWindow("Hello")
+    // TODO: Load image from arg
+    // TODO: Keybindings
+    // TODO: Next/previous image in folder
+    // TODO: Hide window borders
 
-    hello := widget.NewLabel("Hello Fyne!")
-    w.SetContent(container.NewVBox(
-        hello,
-        widget.NewButton("Hi!", func() {
-            hello.SetText("Welcome :)")
-        }),
-    ))
+    app := app.New()
+    window := app.NewWindow("Hello")
 
-    w.ShowAndRun()
+    image := canvas.NewImageFromFile("P1200182.png")
+    image.FillMode = canvas.ImageFillOriginal
+    window.SetContent(image)
+
+    window.Resize(fyne.NewSize(800, 600))
+    window.ShowAndRun()
 }
