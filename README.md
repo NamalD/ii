@@ -18,11 +18,14 @@ Lightweight image viewer.
 | C#       | WPF       |
 | Dart     | Flutter   |
 | Haxe     | HaxeUI    |
-| Multiple | GuiLite   |
+| JS       | Electron  |
+| JS       | Electrino |
 | Kotlin   | Compose   |
+| Multiple | GuiLite   |
+| Multiple | webview   |
 | Pascal   | Lazarus   |
-| Python   | wxWidgets |
 | Python   | tkinter   |
+| Python   | wxWidgets |
 | Red      | ???       |
 | Rust     | Azul      |
 | Rust     | Conrod    |
