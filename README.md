@@ -15,6 +15,7 @@ Lightweight image viewer.
 | -------- | --------- |
 | C        | Nuklear   |
 | C#       | Avalonia  |
+| C#       | Winforms  |
 | C#       | WPF       |
 | Dart     | Flutter   |
 | Haxe     | HaxeUI    |
