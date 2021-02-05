@@ -8,7 +8,7 @@ Lightweight image viewer.
 | -------- | --------- | -------------------------- | ------------------ | ------------------- |
 | Go       | fyne      | 9,599KB                    | 144.6MB            |                     |
 | Python   | kivy      | 18,699KB                   | 52.3MB             |                     |
-| C#       | WPF       | 147KB (exe + dll + config) | 41.5 MB            | Framework-dependent |
+| C#       | WPF       | 148KB (single exe)         | 41.5 MB            | Framework-dependent |
 
 ## TODO
 
