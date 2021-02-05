@@ -25,6 +25,7 @@ Lightweight image viewer.
 | Kotlin   | Compose   |
 | Multiple | GuiLite   |
 | Multiple | webview   |
+| Nim      | NiGui     |
 | Pascal   | Lazarus   |
 | Python   | tkinter   |
 | Python   | wxWidgets |
