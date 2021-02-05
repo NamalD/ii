@@ -23,6 +23,7 @@ Lightweight image viewer.
 | JS       | Electron  |
 | JS       | Electrino |
 | Kotlin   | Compose   |
+| Lua      | Love2D    |
 | Multiple | GuiLite   |
 | Multiple | webview   |
 | Nim      | NiGui     |
