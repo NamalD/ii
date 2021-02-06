@@ -16,7 +16,6 @@ Lightweight image viewer.
 | Language | Library   |
 | -------- | --------- |
 | C        | Nuklear   |
-| C#       | Avalonia  |
 | Dart     | Flutter   |
 | Go       | Lorca     |
 | Haxe     | HaxeUI    |
